@@ -28,51 +28,46 @@
 // let cars = null;
 // console.log(typeof cars);
 
-
 // Math Operators
 
-const now = 2021
+const now = 2021;
 
-const johnAge = now - 1990;
+const johnAge = now - 1990; 
 const janeAge = now - 2000;
+console.log(johnAge , janeAge ,);
 
-console.log('john Age: ' + johnAge , '\nJane Age : '+ janeAge);
-
-console.log(johnAge*2 , johnAge/2 , 3**4) // 3*3*3*3
-
-const firstName = 'John';
+const firstName = 'john';
 const lastName = 'Doe';
 
-console.log(firstName +' '+ lastName)
+console.log(firstName +' '+lastName) // String concatenation 
+
+console.log(johnAge*2 , johnAge/2, 2**4) // 2*2*2*2
 
 // Assignment Operators
 
-x = 10+10; // x=20
-x +=30; // x = x+30
-x -=25; // x = x -25
-x *=2;  // x = x * 2
-x++  // x = x+1
-x-- // x= x-1
+
+let x = 10 + 25;
+x += 30; // x = x + 30
+x -= 15; // x = x-15;
+x *= 4; // x = x*4;
+x++; // x = x+1;
+x--; // x = x-1;
 console.log(x)
 
-// comparision Operators
+// Comparison Operators
 
-console.log(johnAge > janeAge) // > < >= <=
-console.log(johnAge >= 18);
+console.log(johnAge > janeAge); // > < >= <=;
 
-let isAdult = johnAge >= 18;
-
-console.log(isAdult)
+const johnIsElder = johnAge > janeAge;
 
 console.log(now - 1990 > now - 2000);
 
-let y,z;
-
-y=z=25-10-5; //y=z=10 = y=10
-
-console.log(y,z)
+let y , z;
+y = z = 50-25-10; // y = z = 50 - 25 - 10 // y = z = 50 // y = 50
+console.log(y , z)
 
 console.log((johnAge + janeAge) / 2)
+
 
 
 
@@ -108,5 +103,5 @@ which is calculated using the formula: BMI = mass / height ** 2 = mass / (height
 TEST DATA 1: Janes weights 50 kg and is 1.55 m tall. John weights 85 kg and is 1.85 m tall.
 TEST DATA 2: Janes weights 95 kg and is 1.95 m tall. John weights 65 kg and is 1.65 m tall.
 
-GOOD LUCK 😀
+GOOD LUCK 
 */
