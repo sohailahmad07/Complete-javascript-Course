@@ -29,7 +29,7 @@
 // console.log(typeof cars);
 
 // Math Operators
-
+/*
 const now = 2021;
 
 const johnAge = now - 1990; 
@@ -67,23 +67,7 @@ y = z = 50-25-10; // y = z = 50 - 25 - 10 // y = z = 50 // y = 50
 console.log(y , z)
 
 console.log((johnAge + janeAge) / 2)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+*/
 
 
 
@@ -94,7 +78,7 @@ console.log((johnAge + janeAge) / 2)
 
 /*
 John and Jane are trying to compare their BMI (Body Mass Index), 
-which is calculated using the formula: BMI = mass / height ** 2 = mass / (height * height). (mass in kg and height in meter).
+which is calculated using the formula: BMI = mass / height ** 2 OR mass / (height * height). (mass in kg and height in meter).
 
 1. Store Jane's and John's mass and height in variables
 2. Calculate both their BMIs using the formula
@@ -102,6 +86,77 @@ which is calculated using the formula: BMI = mass / height ** 2 = mass / (height
 
 TEST DATA 1: Janes weights 50 kg and is 1.55 m tall. John weights 85 kg and is 1.85 m tall.
 TEST DATA 2: Janes weights 95 kg and is 1.95 m tall. John weights 65 kg and is 1.65 m tall.
+
+GOOD LUCK 
+*/
+
+// const johnWeight = 65;
+// const johnHeight = 1.65;
+// const janeWeight = 95;
+// const janeHeight = 1.95;
+
+// const calcJohnBMI = johnWeight / (johnHeight * johnHeight);
+// const calcJaneBMI  =  janeWeight / janeHeight ** 2;
+// console.log(calcJohnBMI);
+// console.log(calcJaneBMI);
+
+// const JanehasHigherBMI = calcJaneBMI > calcJohnBMI;
+
+// console.log(JanehasHigherBMI)
+
+
+
+// // Template String
+
+// const firstName = 'John';
+// const lastName = 'Doe';
+// const job = 'Programmer';
+// const age = 2021 - 1990;
+
+// // ES5 Ways
+
+// console.log('Hi My Name Is '+ firstName +' '+ lastName + " I'm a " + job + " I'm " + age + ' Years Old');
+// console.log('multiple \nline \nstring')
+
+// // ES6 Way Template literal
+
+// console.log(`Hi My Name is ${firstName} ${lastName} I'm ${job} I'm ${age} years old`);
+// console.log(`multiple
+// Line
+// String`);
+
+
+// if(-5 > 0){
+//     console.log('Positive Number')
+// }else{
+//     console.log('Negative Number')
+// }
+
+// Muliple Decisions
+
+let marks = 59;
+
+if(marks >= 90){
+    console.log('Grade A')
+}else if(marks >= 80){
+    console.log('Grade B')
+}else if (marks >= 70){
+    console.log('Grade C')
+}else if (marks >= 60){
+    console.log('Grade D')
+}else{
+    console.log('Grade F')
+}
+
+
+////////////////////////////////////
+// Coding Challenge #2
+
+/*
+You can Use the BMI example from Challenge #1, and the code you already wrote;
+
+1. Print a nice output to the console, saying who has the higher BMI. 
+2. Use a template literal to include the BMI values in the outputs. Example: "John BMI (24) is higher than Jane BMI (23)!"
 
 GOOD LUCK 
 */
