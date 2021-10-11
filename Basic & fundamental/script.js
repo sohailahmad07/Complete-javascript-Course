@@ -134,19 +134,19 @@ GOOD LUCK
 
 // Muliple Decisions
 
-let marks = 59;
+// let marks = 59;
 
-if(marks >= 90){
-    console.log('Grade A')
-}else if(marks >= 80){
-    console.log('Grade B')
-}else if (marks >= 70){
-    console.log('Grade C')
-}else if (marks >= 60){
-    console.log('Grade D')
-}else{
-    console.log('Grade F')
-}
+// if(marks >= 90){
+//     console.log('Grade A')
+// }else if(marks >= 80){
+//     console.log('Grade B')
+// }else if (marks >= 70){
+//     console.log('Grade C')
+// }else if (marks >= 60){
+//     console.log('Grade D')
+// }else{
+//     console.log('Grade F')
+// }
 
 
 ////////////////////////////////////
@@ -156,7 +156,115 @@ if(marks >= 90){
 You can Use the BMI example from Challenge #1, and the code you already wrote;
 
 1. Print a nice output to the console, saying who has the higher BMI. 
-2. Use a template literal to include the BMI values in the outputs. Example: "John BMI (24) is higher than Jane BMI (23)!"
+2. Use a template literal to include the BMI values in the outputs. 
+Example: "John BMI (24) is higher than Jane BMI (23)!"
 
 GOOD LUCK 
 */
+
+// const johnWeight = 65;
+// const johnHeight = 1.95;
+// const janeWeight = 95;
+// const janeHeight = 1.65;
+
+// const johnWeight = 90;
+// const johnHeight = 1.65;
+// const janeWeight = 50;
+// const janeHeight = 1.95;
+
+// const calcJohnBMI = johnWeight / (johnHeight * johnHeight);
+// const calcJaneBMI = janeWeight / janeHeight ** 2;
+// console.log(calcJohnBMI);
+// console.log(calcJaneBMI);
+
+// if(calcJohnBMI > calcJaneBMI) {
+//     console.log(`John BMI ${calcJohnBMI} is higher than Jane BMI  ${calcJaneBMI}`);
+// }
+// else {
+//     console.log(`Jane BMI ${calcJaneBMI} is higher than John BMI  ${calcJohnBMI}`); 
+// }
+
+
+// Type Conversion
+
+// const number = Number('5');
+// console.log( number + 5);
+
+// console.log(String(454456456), 4544665);
+
+// const x = 'i am ' + 23 + ' Years old'
+
+// console.log('23' + 10);
+// console.log('25' - 10);
+// console.log('25' / '2');
+// console.log('25' > '2');
+
+// console.log(4 + 6 + 15 + '23');
+// console.log('4' - 6 + 15 + 23);
+// console.log('4' - '6' - '15' + '23');
+
+// Falsy values In JavaScript: 0, '', undefined, null, NaN
+
+// console.log(Boolean(0));
+// console.log(Boolean(''))
+// console.log(Boolean(undefined))
+// console.log(Boolean(null))
+// console.log(Boolean(NaN))
+// console.log(Boolean({}))
+
+// const number = 'john';
+
+// if(number){
+//     console.log('Number is Truthy value')
+// }else{
+//     console.log('Number Is Falsy Value')
+// }
+
+// let value;
+
+// if(value === undefined){
+//     console.log('value is undefined')
+// }else{
+//     console.log('value is defined')
+// }
+
+// console.log('1' === '1');
+// console.log(1 == '1');
+
+// const number = Number(prompt('Please Enter Number 7'));
+
+// console.log(typeof number);
+
+// if (number === 7) {
+//     console.log('Correct')
+// } else {
+//     console.log('Wrong Number')
+// }
+
+// if(number !== 7){
+//     console.log('Not Number 7')
+// }else{
+//     console.log('Number 7')
+// }
+
+// logical Operators
+
+/*
+&& And operator
+|| Or operator
+! Not operator
+*/
+
+const isAdult = false;
+const passDrivingTest = false;
+const hasGoodVison = false;
+
+// console.log(isAdult && passDrivingTest && hasGoodVison);
+// console.log(isAdult || passDrivingTest || hasGoodVison);
+// console.log(!isAdult);
+
+// if(isAdult || passDrivingTest || !hasGoodVison){
+//     console.log('John is Eligible For Driving Licence')
+// }else{
+//     console.log('John is Not Eligible For Driving Licence')
+// }
